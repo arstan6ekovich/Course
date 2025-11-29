@@ -47,7 +47,7 @@ class QuestionTranslationOptions(TranslationOptions):
 
 @register(Option)
 class OptionTranslationOptions(TranslationOptions):
-    fields = ('option_name', 'type_option')
+    fields = ('option_name',)
 
 
 @register(Review)
